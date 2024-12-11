@@ -1,6 +1,7 @@
 import React from 'react'
 import Student from './Student'
 import StateHandling from './StateHandling'
+import ImageManipulation from './ImageManipulation'
 
 function App() {
   // const studentdata= [{
@@ -28,7 +29,7 @@ function App() {
       <div>
         <h2 style={{color:'red'}}>hello react js</h2>
         <div>
-          <StateHandling />
+          {/* <StateHandling /> */}
           
           {/* <Student data={studentdata} /> */}
           {/* {
@@ -40,6 +41,7 @@ function App() {
               )
             })
           } */}
+          <ImageManipulation />
         </div>
         <div>
           {/* <Student image={<img src='https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/srixner.png' height={100} width={100} />} name="Rahul Kumar" roll="2346" college="ABES Engineering college" /> */}

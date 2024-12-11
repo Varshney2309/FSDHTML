@@ -1,0 +1,7 @@
+.container{
+    background-color: antiquewhite;
+    height: 600px;
+    width: 600px;
+    border: 4px solid green;
+    margin-left: 200px;
+}
